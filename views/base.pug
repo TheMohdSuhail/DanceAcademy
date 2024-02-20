@@ -1,0 +1,23 @@
+doctype html
+html
+  head
+    title MSP Dance Academy
+    block scripts 
+    block style 
+  body
+    block nav 
+      nav#navbar
+
+        ul
+            div#logo 
+                img(src="/static/img/logo.png")
+                | MSP
+            li #[a(href="/") Home]
+            li #[a(href="/") About]
+            li #[a(href="/") Services]
+            li #[a(href="/") Class Info]
+            li #[a(href="/contact") Contact us]
+
+    block content
+    footer#footer 
+        | Copyright &copy 2024 MSP'sDanceAcademy | All right reserve

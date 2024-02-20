@@ -1,0 +1,14 @@
+{
+  "name": "dancewebsite",
+  "version": "1.0.0",
+  "description": "This is the best website of join Dance academy",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Mohd Suhail",
+  "license": "ISC",
+  "dependencies": {
+    "pug": "^3.0.2"
+  }
+}
